@@ -144,11 +144,11 @@ console.log(lang);
 
                       <ul className="flex gap-3 flex-col mx-auto">
                         <p>Ingrediants</p>
-                      <h3 className=" w-[125] md:w-[500px] bg-gray-400 p-2 text-gray-400"> ing</h3>
-                       <h3 className="w-[125] md:w-[500px] bg-gray-400 p-2 text-gray-400"> ing</h3>
-                        <h3 className="w-[125] md:w-[500px] bg-gray-400 p-2 text-gray-400"> ing</h3>
-                          <h3 className="w-[125] md:w-[500px] bg-gray-400 p-2 text-gray-400"> ing</h3>
-                          <h3 className="w-[125] md:w-[500px] bg-gray-400 p-2 text-gray-400"> ing</h3>
+                      <h3 className=" w-[125] md:w-[250px] bg-gray-400 p-2 text-gray-400"> ing</h3>
+                       <h3 className="w-[125] md:w-[250px] bg-gray-400 p-2 text-gray-400"> ing</h3>
+                        <h3 className="w-[125] md:w-[250px] bg-gray-400 p-2 text-gray-400"> ing</h3>
+                          <h3 className="w-[125] md:w-[250px] bg-gray-400 p-2 text-gray-400"> ing</h3>
+                          <h3 className="w-[125] md:w-[250px] bg-gray-400 p-2 text-gray-400"> ing</h3>
                       </ul>
                       <ol className="flex flex-col gap-3 mx-auto"> 
                         <p>Steps</p>

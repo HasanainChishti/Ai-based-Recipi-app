@@ -55,19 +55,19 @@ const SearchRecipi = () => {
 
                       <ul className="flex gap-3 flex-col">
                         <p>Ingrediants</p>
-                      <h3 className="w-[500px] bg-gray-400 p-2 text-gray-400"> ing</h3>
-                       <h3 className="w-[500px] bg-gray-400 p-2 text-gray-400"> ing</h3>
-                        <h3 className="w-[500px] bg-gray-400 p-2 text-gray-400"> ing</h3>
-                          <h3 className="w-[500px] bg-gray-400 p-2 text-gray-400"> ing</h3>
-                          <h3 className="w-[500px] bg-gray-400 p-2 text-gray-400"> ing</h3>
+                      <h3 className="w-[125] md:w-[250px] bg-gray-400 p-2 text-gray-400"> ing</h3>
+                       <h3 className="w-[125] md:w-[250px] bg-gray-400 p-2 text-gray-400"> ing</h3>
+                        <h3 className="w-[125] md:w-[250px] bg-gray-400 p-2 text-gray-400"> ing</h3>
+                          <h3 className="w-[125] md:w-[250px] bg-gray-400 p-2 text-gray-400"> ing</h3>
+                          <h3 className="w-[125] md:w-[250px] bg-gray-400 p-2 text-gray-400"> ing</h3>
                       </ul>
                       <ol className="flex flex-col gap-3 "> 
                         <p>Steps</p>
-                        <h3 className="w-[500px] bg-gray-100 p-3">Step 1 </h3>
-                        <h3 className="w-[500px] bg-gray-100 p-3">Step 2 </h3>
-                        <h3 className="w-[500px] bg-gray-100 p-3">Step 3 </h3>
-                        <h3 className="w-[500px] bg-gray-100 p-3">Step 4 </h3>
-                        <h3 className="w-[500px] bg-gray-100 p-3">Step 5 </h3>
+                        <h3 className="w-[200px] md:w-[500px] bg-gray-100 p-3">Step 1 </h3>
+                        <h3 className="w-[200px] md:w-[500px] bg-gray-100 p-3">Step 2 </h3>
+                        <h3 className="w-[200px] md:w-[500px] bg-gray-100 p-3">Step 3 </h3>
+                        <h3 className="w-[200px] md:w-[500px] bg-gray-100 p-3">Step 4 </h3>
+                        <h3 className="w-[200px] md:w-[500px] bg-gray-100 p-3">Step 5 </h3>
                       </ol>
                       </div>
         )
