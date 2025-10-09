@@ -1,6 +1,6 @@
 import biryani from "../assets/images/biryani.png"
 import ChickenTikka from "../assets/images/chickenTikka.png"
-import ChickenManchurian from "../assets/images/chickenManchurian"
+import ChickenManchurian from "../assets/images/chickenManchurian.png"
 import PaneerButter from "../assets/images/PaneerButter.png"
 import PalakPaneer from "../assets/images/PalakPaneer.png"
 import AlooGobi from "../assets/images/AlooGobi.png"
