@@ -49,7 +49,7 @@ const Body = () => {
         ))}
       </div>
 
-      <div className=" flex  w-[80%] mx-auto gap-4 flex-wrap items-center mb-5  mt-3 justify-center pt-5">
+      <div className="   w-[80%] place-items-center gap-4 grid  justify-center align-middle grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:gap-0 lg:grid-cols-4 lg:gap-x-1 lg:gap-y-10 items-center mb-5  mt-3 r pt-5">
         
      
       {
@@ -58,7 +58,7 @@ const Body = () => {
         <div
           key={meal.idMeal}
         
-          className=" shadow-md bg-white h-80 w-75 rounded-xl flex flex-col relative"
+          className=" shadow-md bg-gray-50 h-80 w-60 rounded-xl flex flex-col relative"
         >
           <img
             src={meal.image}

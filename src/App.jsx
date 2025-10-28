@@ -10,7 +10,7 @@ function App() {
 
 const [blog,setblog]=useState([]);
   return (
-    <div className='bg-gray-200 min-h-screen'>
+    <div className='bg-white min-h-screen'>
      {/* <h1 className='bg-red-100'>hshs</h1> */}
      <BrowserRouter>
   <Routes>

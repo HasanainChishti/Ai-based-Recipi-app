@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className=" shadow-md relative rounded-xl  bg-gradient-to-r from-green-400 via-green-200 to-green-400 mt-20  mx-auto h-130 w-auto  sm:w-[50%]  sm:h-[40%] md:w-[60%] md:h-[75%] lg:w-[80%]  lg:h-full flex justify-center align-middle"  >
+    <section className=" shadow-md relative rounded-xl  bg-gradient-to-r from-green-400 via-green-200 to-green-400 mt-20  mx-auto h-140 w-auto  sm:w-[50%]  sm:h-[40%] md:w-[60%] md:h-[75%] lg:w-[85%]  lg:h-full flex justify-center align-middle"  >
       {/* Background image */}
       <img
         src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1500&q=80" // food/recipe banner
@@ -11,11 +11,11 @@ const Hero = () => {
       />
 
       <div className="relative max-w-7xl mx-auto px-6 py-20 flex flex-col items-center text-center gap-6">
-        <h1 className="text-5xl md:text-6xl font-extrabold text-green-900 drop-shadow-lg">
+        <h1 className="text-5xl md:text-6xl font-extrabold text-white drop-shadow-lg">
           Discover & Cook Delicious Recipes 🍳
         </h1>
       
-<h2 className="mt-8 hidden   sm:block text-lg sm:text-xl md:text-2xl lg:text-2xl text-green-900 max-w-2xl">
+<h2 className="mt-8 hidden   sm:block text-2xl font-bold sm:text-xl md:text-2xl lg:text-2xl text-gray-700 max-w-2xl">
   Explore thousands of recipes from Indian, Italian, Chinese, Desserts & Beverages. 
   Get step-by-step guides with ingredients instantly!
 </h2>
