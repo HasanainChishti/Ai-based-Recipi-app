@@ -12,7 +12,7 @@ import DalMakhani from "../assets/images/DalMakhani.png"
 import MasalaDosa from "../assets/images/MasalaDosa.png"
 import vegManchurian from "../assets/images/vegManchurian.png"
 import vegHakkaNoodles from "../assets/images/vegHakkaNoodles.png"
-import ChickenMasala from "../assets/images/ChickenMasala.png"
+import ChickenMasala from "../assets/images/chickenMasala.png"
 import BadamShake from "../assets/images/BadamShake.png"
 export let Allblogs = [
   {
