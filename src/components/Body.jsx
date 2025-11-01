@@ -49,7 +49,7 @@ const Body = () => {
         ))}
       </div>
 
-      <div className="   w-[80%] place-items-center gap-4 grid  justify-center align-middle grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:gap-0 lg:grid-cols-4 lg:gap-x-1 lg:gap-y-10 items-center mb-5  mt-3 r pt-5">
+      <div className="   w-[80%] place-items-center  grid  justify-center align-middle grid-cols-1 sm:grid-cols-1 md:grid-cols-2 md:gap-0 lg:grid-cols-3 lg:gap-10 items-center mb-5  mt-3 r pt-5">
         
      
       {
@@ -58,7 +58,7 @@ const Body = () => {
         <div
           key={meal.idMeal}
         
-          className=" shadow-md bg-gray-50 h-80 w-60 rounded-xl flex flex-col relative"
+          className=" shadow-md bg-gray-50 h-65 w-60 rounded-xl flex flex-col relative"
         >
           <img
             src={meal.image}
@@ -67,9 +67,9 @@ const Body = () => {
           />
           {/* <span className="text-xl text-white-300 font-bold  absolute top-1"> {meal.type}</span> */}
           <img src={`${meal.type}`} alt={meal.type} className="h-10 w-10 absolute top-2 " />
-         <div className="details flex flex-col p-1 text-2xl gap-2">
+         <div className="details flex flex-col p-1 text-2xl gap-2 items-center ">
            <h3 >{meal.name}</h3>
-          <h2>{meal.category}</h2>
+          {/* <h2>{meal.category}</h2> */}
          </div>
         </div>
         </Link>

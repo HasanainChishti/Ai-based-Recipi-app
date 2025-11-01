@@ -81,19 +81,19 @@ console.log(lang);
 
   return (
     <>
-    <div className="bg-gray-50 min-h-screen  flex flex-col  mb-10">
+    <div className="bg-gray-50 min-h-screen  flex flex-col ">
            <Navbar></Navbar>
         
-      <div className="  flex flex-col justify-center align-middle bg-gray-100 w-[40%]  sm:flex sm:flex-row  sm:w-[60%] sm:h-auto     md:w-[80%]   md:flex md:flex-row  mx-auto md:gap-5  mt-10  shadow-md  rounded-xl h-80 mb-20">
+      <div className="  flex flex-col   justify-center align-middle bg-gray-100 w-[40%]  sm:flex sm:flex-row  sm:w-[60%] sm:h-auto     md:w-[80%]   md:flex md:flex-row  mx-auto md:gap-5  mt-10  shadow-md  rounded-xl h-80 ">
        
        <div className="image w-[100%]  object-cover flex sm:justify-start sm:w-[50%] md:w-[30%] md:h-[50vh]">
          <img
           src={item?.image} 
           alt=""
-          className="shadow-md text-white bg-gray-900 w-[100%] h-[50vh] rounded-xl "
+          className="shadow-md text-white bg-gray-900 w-[100%] h-[40vh] rounded-xl "
         />
        </div>
-        <div className=" w-[100%] items-start  text-black flex flex-col sm:w-[50%]  md:w-[50%] sm:text-start h-[40vh]   gap-1 mx-auto bg-gray-100">
+        <div className=" w-[100%] items-start  justify-center align-middle  text-black flex flex-col sm:w-[50%]  md:w-[50%] sm:text-start h-[40vh]   gap-1 mx-auto bg-gray-100">
           {/* <h3 className="text-4xl">Details</h3> */}
           <h3 className=" text-3xl ">{item.name}</h3>
           <p className="">{item.category}</p>
@@ -110,7 +110,7 @@ console.log(lang);
          {
           data?(
             <>
-                 <div id="recipes" className="details text-xl bg-gray-800 text-gray-200 h-auto  w-[80%] pl-10 pt-10 pb-10 mt-10 shadow-md mx-auto  items-center">
+                 <div id="recipes" className="details text-xl bg-gray-100 text-black h-auto  w-[80%] pl-10 pt-10 pb-10 shadow-md mx-auto  items-center">
       
         <Markdown>{data}</Markdown>)
        
@@ -126,8 +126,9 @@ console.log(lang);
              
               <img src={food.image} alt="" className="  h-40  w-60 " />
                 {/* <div className="flex justify-between p-2"> */}
-                   <h3 className="p-1 text-2xl font-semibold">{food.name}<span className="text-gray-600 font-normal text-xl">({food.type})</span></h3>
+                   <h3 className="p-1 text-2xl font-semibold">{food.name}</h3>
                <h5 className="p-1 text-xl  text-gray-800 font-semibold">{food.category}Food</h5>
+               {/* <span className="text-gray-600 font-normal text-xl">({food.type})</span> */}
                 {/* </div> */}
            
 
@@ -139,7 +140,7 @@ console.log(lang);
       </div>
       </>
           ):(
-                    <div id="recipes" className="bg-gray-800 h-[100%] w-[80%] flex flex-col mx-auto pl-10 gap-2 pb-5">
+                    <div id="recipes" className="bg-gray-200 h-[100%] w-[80%] flex flex-col mx-auto pl-10 gap-2 pb-5">
                       <p>{item.name} Banane ki vidhi</p>
 
                       <ul className="flex gap-3 flex-col mx-auto">

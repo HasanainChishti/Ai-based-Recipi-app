@@ -41,12 +41,11 @@ const SearchRecipi = () => {
     }
   }, [name]);
   return (
-    //  <h1>yes this is page </h1>
-           
+  
     <div>
         <Navbar></Navbar>
       {
-        data?(<div id="recipes" className="w-[70%] mx-auto h-auto bg-gray-800 text-gray-200 mt-20 pl-10">
+        data?(<div id="recipes" className="w-[70%] mx-auto h-auto bg-gray-100 text-gray-800 mt-20 pl-10 p-2 shadow-md rounded-xl">
           <Markdown>{data}</Markdown>
         </div>):
         (

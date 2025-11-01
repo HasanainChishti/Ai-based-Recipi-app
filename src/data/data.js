@@ -8,6 +8,12 @@ import CholeBhature from "../assets/images/CholeBhature.png"
 import ButterNan from "../assets/images/ButterNan.png"
 import veg from "../assets/images/veg.png"
 import nonVeg from "../assets/images/nonVeg.png"
+import DalMakhani from "../assets/images/DalMakhani.png"
+import MasalaDosa from "../assets/images/MasalaDosa.png"
+import vegManchurian from "../assets/images/vegManchurian.png"
+import vegHakkaNoodles from "../assets/images/vegHakkaNoodles.png"
+import ChickenMasala from "../assets/images/ChickenMasala.png"
+import BadamShake from "../assets/images/BadamShake.png"
 export let Allblogs = [
   {
     id: 1,
@@ -78,7 +84,7 @@ export let Allblogs = [
     name: "Dal Makhani",
     category: "Indian",
     type:veg,
-    image: "",
+    image: DalMakhani,
     recipe: "",
   },
   {
@@ -86,7 +92,7 @@ export let Allblogs = [
     name: "Masala Dosa",
     category: "Indian",
     type:veg,
-    image: "",
+    image:MasalaDosa,
     recipe: "",
   },
    {
@@ -94,7 +100,7 @@ export let Allblogs = [
     name:"VegManchurian",
     category:"Chinese",
     type:veg,
-    image:"",
+    image:vegManchurian,
     recipe:"",
   },
    {
@@ -102,7 +108,7 @@ export let Allblogs = [
     name:"VegHakkaNoddles",
     category:"Chinese",
     type:veg,
-    image:"",
+    image:vegHakkaNoodles,
     recipe:"",
   },
    {
@@ -110,7 +116,7 @@ export let Allblogs = [
     name:"ChickenMaSALA",
     category:"Chinese",
     type:veg,
-    image:"",
+    image:ChickenMasala,
     recipe:"",
   },
    {
@@ -118,7 +124,7 @@ export let Allblogs = [
     name:"BadamShek",
     category:"Desserts",
     type:veg,
-    image:"",
+    image:BadamShake,
     recipe:"",
   },
 ];
