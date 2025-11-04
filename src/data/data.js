@@ -29,7 +29,7 @@ import Rasam from "../assets/images/Rasam.png"
 import LemonRice from "../assets/images/LemonRice.png"
 import ChickenChetti from "../assets/images/ChickenChetti.png"
 import AndhraParsattu from "../assets/images/AndhraParsattu.png"
-import Gulabjamoon from "../assets/images/Gulabjamoon.png"
+import Gulabjamoon from "../assets/images/GulabJamoon.png"
 
 import Rasgulla from "../assets/images/Rasgulla.png"
 import Kajukatli from "../assets/images/Kajukatli.png"
