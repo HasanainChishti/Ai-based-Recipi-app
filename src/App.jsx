@@ -6,17 +6,21 @@ import Home from "./pages/Home"
 import BlogDetail from './pages/BlogDetail';
 import SearchRecipi from './pages/SearchRecipi'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Contact from './pages/Contact'
+import Login from './pages/Login'
 function App() {
-
+const [log,setLog]=useState(false);
 const [blog,setblog]=useState([]);
   return (
     <div className='bg-white min-h-screen'>
      {/* <h1 className='bg-red-100'>hshs</h1> */}
      <BrowserRouter>
   <Routes>
-    <Route path="/" element={<Home />} />
+    <Route path="/" element={<Home log={log} />} />
     <Route path="/Recipi/:id" element={<BlogDetail />} />
     <Route path='/SearchRecipi/:name' element={<SearchRecipi></SearchRecipi>}></Route>
+    <Route path='/Contact' element={<Contact></Contact>}></Route>
+    <Route path='/Login' element={<Login setLog={setLog}></Login>}></Route>
   </Routes>
 </BrowserRouter>
 

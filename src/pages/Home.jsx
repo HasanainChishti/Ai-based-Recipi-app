@@ -3,10 +3,10 @@ import Navbar from "../components/Navbar"
 import Body from "../components/Body"
 import Footer from "../components/Footer"
 import Hero from '../components/Hero'
-const Home = () => {
+const Home = ({log}) => {
   return (
     <div>
-        <Navbar></Navbar>
+        <Navbar log={log}></Navbar>
          <Hero></Hero>
         <Body></Body>
         <Footer></Footer>

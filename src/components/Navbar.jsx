@@ -51,7 +51,7 @@ import { Link, useNavigate } from "react-router-dom";
 import SearchRecipi from "../pages/SearchRecipi";
 import Body from "./Body";
 import { useParams } from "react-router-dom";
-const Navbar = () => {
+const Navbar = ({log}) => {
   const [isOpen, setIsOpen] = useState(false);
    const [search,setSearch]=useState('');
    const [dishValue,setDishValue]=useState('');
@@ -59,6 +59,7 @@ const Navbar = () => {
    
    console.log(search);
    console.log(dishValue);
+   const isLogin=localStorage.getItem('login');
    const navigate=useNavigate();
    function handleKey(e)
    {
@@ -83,9 +84,9 @@ const Navbar = () => {
    {
       setGuest((prv)=>!prv);
    }
-
+ 
   return (
-    <nav className="bg-gradient-to-r from-green-400 via-green-300 to-green-400 shadow-md sticky top-0 z-50 sm:w-full md:w-full w-full lg:w-full">
+    <nav className="bg-green-400 shadow-md sticky top-0 z-50 sm:w-full md:w-full w-full lg:w-full">
       <div className="max-w-7xl mx-auto px-4 sm:px-4 md:px-8">
         <div className="flex justify-between items-center h-30 lg:flex lg:justify-evenly ">
           {/* Logo */}
@@ -127,20 +128,23 @@ const Navbar = () => {
               Recipes
             </button>
        
-            <button  onClick={()=>{const about=document.getElementById('footer');
-              about.scrollIntoView({behavior:"smooth"})}}  className="hover:text-orange-200 transition text-2xl">
-              About
-            </button>
-            {
+        
+             <Link to={"/Contact"}> <span className="text-2xl text-white">Contact</span></Link>
+            {/* {
             guest?(<ul className=" text-2xl bg-orange-600 mt-4 rounded-2xl">
-              {/* <h5 className="text-white text-2xl">Login</h5> */}
+             
               <button  onClick={()=>setLogin()}  className="text-white text-2xl p-2">GuestLogin</button>
             </ul>):(<button onClick={()=>handleGuestLogin()} className="bg-white text-green-600 px-4 py-2 rounded-full hover:bg-orange-200 transition text-2xl">
               Log In
 
             </button>)
+             } */}
+             {
+             log?(
+            <p className="text-2xl bg-white rounded-full ">👤</p>
+             ):(<Link to={"/Login"} className="text-2xl text-white">Login</Link>)
              }
-          </div>
+             </div>
 
           {/* Mobile menu button */}
           <div className="md:hidden   lg:hidden flex items-center">
