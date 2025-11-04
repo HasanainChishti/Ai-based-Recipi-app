@@ -32,7 +32,7 @@ import AndhraParsattu from "../assets/images/AndhraParsattu.png"
 import Gulabjamoon from "../assets/images/GulabJamoon.png"
 
 import Rasgulla from "../assets/images/Rasgulla.png"
-import Kajukatli from "../assets/images/Kajukatli.png"
+import Kajukatli from "../assets/images/KajuKatli.png"
 import Jalebi from "../assets/images/Jalebi.png"
 import Rasmalai from "../assets/images/Rasmalai.png"
 import sezwanNoodles from "../assets/images/sezwanNoodles.png"
