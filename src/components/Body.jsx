@@ -73,7 +73,7 @@ const Body = () => {
            className="object-cover w-75 h-50  rounded-xl relative bg-black"
           />
           {/* <span className="text-xl text-white-300 font-bold  absolute top-1"> {meal.type}</span> */}
-          <img src={meal.type} alt={meal.type} className="h-10 w-10 absolute top-2 " />
+          {/* <img src={meal.type} alt={meal.type} className="h-10 w-10 absolute top-2 " /> */}
          <div className="details flex flex-col p-1 text-2xl gap-2 items-center ">
            <h3 >{meal.name}</h3>
           {/* <h2>{meal.category}</h2> */}
